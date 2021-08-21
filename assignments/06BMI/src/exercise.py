@@ -3,7 +3,7 @@ def main():
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
 
-    indice =float(peso / altura**2)
+    indice =float (peso / altura**2)
     
     if indice == 0:
         print("Revisa tus datos, alguno de ellos es erróneo")
