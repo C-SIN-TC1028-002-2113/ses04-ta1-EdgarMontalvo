@@ -5,7 +5,7 @@ def main():
 
     indice =float (peso / altura**2)
     
-    if indice == 0:
+    if indice <= 0:
         print("Revisa tus datos, alguno de ellos es erróneo")
     elif indice <20:
         print("PESO BAJO")
